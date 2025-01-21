@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+
+  /* Updated color variables */
+  --foreground-rgb: 0, 0, 0; /* Set text color to black */
+  --background-start-rgb: 240, 245, 249; /* White */
+  --background-end-rgb: 255, 255, 255;   /* Slight gradient to white */
+
+  --primary-glow: conic-gradient(
+    from 180deg at 50% 50%,
+    #ffffff33 0deg,    /* White with transparency */
+    #f5dcc733 55deg,
+    #90c9e633 120deg,  /* Light blue with transparency */
+    #073b6633 160deg,  /* Dark blue with transparency */
+    transparent 360deg
+  );
+  --secondary-glow: radial-gradient(
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+
+  --tile-start-rgb: 144, 201, 230; /* Light blue */
+  --tile-end-rgb: 132, 174, 204;   /* Slightly darker light blue */
+  --tile-border: conic-gradient(
+    #073b6680,
+    #073b6640,
+    #073b6630,
+    #073b6620,
+    #073b6610,
+    #073b6610,
+    #073b6680
+  );
+
+  --callout-rgb: 255, 255, 255;          /* Updated to white */
+  --callout-border-rgb: 255, 255, 255;   /* Updated to white */
+  --card-rgb: 7, 59, 102;               /* Dark blue */
+  --card-border-rgb: 4, 44, 76;         /* Darker blue */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255; /* White for dark mode */
+    --background-start-rgb: 7, 15, 32; /* Very dark blue */
+    --background-end-rgb: 2, 5, 19;    /* Almost black */
+
+    --primary-glow: radial-gradient(rgba(4, 44, 76, 0.4), rgba(4, 44, 76, 0));
+    --secondary-glow: linear-gradient(
+      to bottom right,
+      rgba(4, 44, 76, 0),
+      rgba(4, 44, 76, 0.4)
+    );
+
+    --tile-start-rgb: 7, 59, 102;
+    --tile-end-rgb: 4, 44, 76;
+    --tile-border: conic-gradient(
+      #ffffff80,
+      #ffffff40,
+      #ffffff30,
+      #ffffff20,
+      #ffffff10,
+      #ffffff10,
+      #ffffff80
+    );
+
+    --callout-rgb: 255, 255, 255;       /* Updated to white */
+    --callout-border-rgb: 255, 255, 255; /* Updated to white */
+    --card-rgb: 7, 59, 102;
+    --card-border-rgb: 132, 174, 204;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb)); /* Use black as the default text color */
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.card {
+  padding: 1rem 1.2rem;
+  border-radius: var(--border-radius);
+  background: rgba(var(--card-rgb), 0);
+  border: 1px solid rgba(var(--card-border-rgb), 0);
+  transition: background 200ms, border 200ms;
+}
+
+.card:hover {
+  background: rgba(var(--card-rgb), 0.1);
+  border: 1px solid rgba(var(--card-border-rgb), 0.2);
+}
+
+.thirteen::after {
+  background: linear-gradient(
+    to bottom right,
+    rgba(var(--tile-start-rgb), 1),
+    rgba(var(--tile-end-rgb), 1)
+  );
+  background-clip: content-box;
+}
