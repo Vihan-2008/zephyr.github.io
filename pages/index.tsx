@@ -35,7 +35,7 @@ export default function Home() {
 						// className="w-full h-[82%] mb-[4%] sm:h-[54%] sm:mb-[1%] flex flex-col justify-center items-center rounded-[2rem] grayscale-[50%] bg-cover"
 						>
 							<h1 className="text-4xl font-bold text-white sm:text-7xl">
-								ZEPHYR
+								ZEPHYR!
 							</h1>
 							<h3 className="flex items-center justify-center my-4 text-xl font-semibold text-white sm:text-2xl">
 								February 15
