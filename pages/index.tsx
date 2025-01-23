@@ -129,7 +129,7 @@ export default function Home() {
                             Workshops
                         </h1>
 						                        <div className="flex flex-col items-start justify-center text-black w-full h-auto gap-4">
-						<MainEvent title={"Mixnosh Art Cafe Painting Workshop"} description={"Participants will participate in creating Tote Bags, Caps and Pouches. The cost for the same will be as follows: \n\nTote Bag: Rs.700 Cap: \nRs.700 \nPouch: Rs.600"} image='public/images/ahuja.jpg' />
+						<MainEvent title={"Mixnosh Art Cafe Painting Workshop"} description={"Participants will participate in creating Tote Bags, Caps and Pouches. The cost for the same will be as follows: \n\nTote Bag: Rs.700 Cap: \nRs.700 \nPouch: Rs.600"} image='ahuja.jpg' />
 					</div>
 					</div>
 				</div>
