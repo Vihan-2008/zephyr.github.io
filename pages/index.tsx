@@ -123,22 +123,16 @@ export default function Home() {
 					</div>
 				</div>
 
-				{/* Guest speaker profiles 
-				<div className="flex w-screen h-auto bg-primary " id="events">
+						<div className="flex w-screen h-auto bg-primary " id="events">
 					<div className="flex flex-col items-center justify-center w-full h-auto px-6 sm:px-8 ">
 						<h1 className="w-full mb-8 mt-16 text-6xl font-semibold text-center sm:text-left">
                             Workshops
                         </h1>
 						                        <div className="flex flex-col items-start justify-center text-black w-full h-auto gap-4">
-													    <h2> COMING SOON </h2>
-
-						<MainEvent title={guestSpeaker1.title} description={guestSpeaker1.description} image='./images/speaker1.jpg' />
-						<MainEvent title={guestSpeaker2.title} description={guestSpeaker2.description} image='./images/Ahuja.jpg' />
-
-						<MainEvent title={guestSpeaker3.title} description={guestSpeaker3.description} image='./images/ahuja.jpg' />
+						<MainEvent title={"Mixnosh Art Cafe Painting Workshop"} description={"Participants will participate in creating Tote Bags, Caps and Pouches. The cost for the same will be as follows: \n\nTote Bag: Rs.700 Cap: \nRs.700 \nPouch: Rs.600"} image='./images/ahuja.jpg' />
 					</div>
 					</div>
-				</div>*/}
+				</div>
 
 
 				{/* about us */}
