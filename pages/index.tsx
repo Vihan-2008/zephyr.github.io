@@ -51,7 +51,7 @@ export default function Home() {
 										block: "start",
 									});
 								}}
-								onClickCapture={() => window.open("https://forms.office.com/r/F1zSdf8ugR", "_blank")}
+								onClickCapture={() => window.open("https://forms.gle/fGMNgDTXSCVjN5U98", "_blank")}
 								className="flex flex-wrap w-[80%] sm:w-auto text-black items-center justify-center px-10 py-2 mt-2 text-xl brightness-[1.2] font-semibold bg-white sm:bg-gradient-to-br from-[#87CEEB] to-[#5F9EA0] rounded-3xl sm:rounded-full cursor-pointer"
 							>
 								Registrations Open!
