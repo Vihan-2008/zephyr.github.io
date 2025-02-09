@@ -163,7 +163,7 @@ export default function Home() {
 					</div>
 				</div>
 
-			{/** 	<h3 className="mt-16 mb-8 text-4xl font-semibold ml-8" id="sponsors">
+			 	<h3 className="mt-16 mb-8 text-4xl font-semibold ml-8" id="sponsors">
 					Sponsors
 				</h3>
 
@@ -194,22 +194,14 @@ export default function Home() {
 					<div className="flex items-start justify-start w-full gap-8">
 						<div className="bg-black rounded-lg overflow-hidden">
 							<img
-								src="./images/BRITANNIA LOGO.jpg"
+								src="./images/sponsor4.jpg"
 								alt="OFG"
 								width={152}
 								height={78}
 							/>
 						</div>
-						<div className="bg-gray rounded-lg overflow-hidden">
-							<img
-								src="./images/natus.jpg"
-								alt="Talent Folks"
-								width={182}
-								height={78}
-							/>
-						</div>
 					</div>
-				</div> */}
+				</div> }
 
 				<Footer />
 			</div>
