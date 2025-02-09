@@ -169,14 +169,14 @@ export default function Home() {
 
 				<div className="flex flex-col items-start justify-start gap-8 ml-8">
 					<div className="flex flex-col items-start justify-start w-full gap-8 sm:flex-row">
-						<div className="w-60 h-60 bg-white rounded-lg overflow-hidden">
+						<div className="w-60 h-80 bg-white rounded-lg overflow-hidden">
 							<img
 								src="./images/sponsor1.jpg"
 								alt="bren"
 								className="object-cover h-full w-full"
 							/>
 						</div>
-						<div className="w-60 h-60 bg-white rounded-lg overflow-hidden">
+						<div className="w-60 h-80 bg-white rounded-lg overflow-hidden">
 							<img
 								src="./images/sponsor2.jpg"
 								alt="bren"
@@ -184,22 +184,19 @@ export default function Home() {
 							/>
 						</div>
 					</div>
-					<div className="w-60 h-60 bg-white rounded-lg overflow-hidden">
+					<div className="w-60 h-80 bg-white rounded-lg overflow-hidden">
 						<img
 							src="./images/sponsor3.jpg"
 							alt="bren"
 							className="object-cover h-full w-full"
 						/>
 					</div>
-					<div className="flex items-start justify-start w-full gap-8">
-						<div className="bg-black rounded-lg overflow-hidden">
-							<img
-								src="./images/sponsor4.jpg"
-								alt="OFG"
-								width={152}
-								height={78}
-							/>
-						</div>
+					<div className="w-60 h-80 bg-white rounded-lg overflow-hidden">
+						<img
+							src="./images/sponsor4.jpg"
+							alt="bren"
+							className="object-cover h-full w-full"
+						/>
 					</div>
 				</div> 
 
