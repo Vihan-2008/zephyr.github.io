@@ -176,7 +176,7 @@ export default function Home() {
 								className="object-cover h-full w-full"
 							/>
 						</div>
-						<div className="w-52 h-28 bg-white rounded-lg overflow-hidden">
+						<div className="w-auto h-auto bg-white rounded-lg overflow-hidden">
 							<img
 								src="./images/sponsor2.jpg"
 								alt="bren"
